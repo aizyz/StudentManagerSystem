@@ -14,7 +14,11 @@ public class StudentManagerTest {
      * F:学生管理系统的修改学生的代码编写
      */
     public static void main(String[] args) {
-        ArrayList<Student> array = new ArrayList<Student>();
+      	//创建集合对象，用于存储学生数据
+		ArrayList<Student> array = new ArrayList<Student>();
+		
+		//为了让程序能够回到这里来，我们使用循环
+
 
         while (true) {
             System.out.println("####欢迎来到学生管理系统####");
